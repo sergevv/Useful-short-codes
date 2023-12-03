@@ -5,4 +5,4 @@ from pytube import YouTube
 link = 'https://www.youtube.com/watch?v=2PjZAeiU7uM'
 yt = YouTube(link)
 yt.streams.filter(mime_type="video/mp4",          # type
-                  res='144p').first().download()  # resolution
+                  res='360p').first().download()  # resolution
